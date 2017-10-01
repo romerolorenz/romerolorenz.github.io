@@ -1,7 +1,12 @@
 // Allows us to use ES6 in our migrations and tests.
 require('babel-register')
+var DefaultBuilder = require("truffle-default-builder");
 
 module.exports = {
+  builder:      require('./builders/ownage-network-api-build.js')({
+    version:    "1.0"
+  }),
+
   networks: {
     development: {
       host: 'localhost',
