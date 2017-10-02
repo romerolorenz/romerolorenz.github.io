@@ -21974,7 +21974,7 @@ module.exports = Jsonrpc;
 /* 53 */
 /***/ (function(module, exports) {
 
-module.exports = {"contract_name":"Hasher","abi":[{"constant":false,"inputs":[{"name":"_txHash","type":"bytes32"}],"name":"storeDetails","outputs":[{"name":"_time","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"_txId","type":"uint256"}],"name":"showTxDetails","outputs":[{"name":"_txHash","type":"bytes32"},{"name":"_time","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"_txHash","type":"bytes32"}],"name":"showTxId","outputs":[{"name":"_txId","type":"uint256"},{"name":"_time","type":"uint256"}],"payable":false,"type":"function"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_txHash","type":"bytes32"},{"indexed":true,"name":"_time","type":"uint256"},{"indexed":true,"name":"_txId","type":"uint256"}],"name":"Stored","type":"event"}],"unlinked_binary":"0x6060604052341561000f57600080fd5b5b6101d48061001f6000396000f300606060405263ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663058caf7d81146100535780636ac05a141461007b578063e7d12312146100a9575b600080fd5b341561005e57600080fd5b6100696004356100d7565b60405190815260200160405180910390f35b341561008657600080fd5b610091600435610161565b60405191825260208201526040908101905180910390f35b34156100b457600080fd5b61009160043561017f565b60405191825260208201526040908101905180910390f35b60008054600101905542604080519081016040908152838252602080830184905260008054815260029091522081518155602082015160019182015560008054858252602092909252604090819020829055909150829084907fb47602f39d5e453eb8eb44a5c178203a3b620e2fa7b86701d10ccc1cb2cdf2bb905160405180910390a45b919050565b60008181526002602052604090208054600182015490915b50915091565b600081815260016020818152604080842054808552600290925290922090810154905b509150915600a165627a7a7230582053f1793893b3e1615fdb7c65da28c5401bbb88ef5e709a6380b5214f827250600029","networks":{"3":{"events":{"0xb47602f39d5e453eb8eb44a5c178203a3b620e2fa7b86701d10ccc1cb2cdf2bb":{"anonymous":false,"inputs":[{"indexed":true,"name":"_txHash","type":"bytes32"},{"indexed":true,"name":"_time","type":"uint256"},{"indexed":true,"name":"_txID","type":"uint256"}],"name":"Stored","type":"event"}},"links":{},"address":"0xd90ab193c92f043fa8c6c88c676542dd20d4f037","updated_at":1506569057756},"1056916":{"events":{"0xb47602f39d5e453eb8eb44a5c178203a3b620e2fa7b86701d10ccc1cb2cdf2bb":{"anonymous":false,"inputs":[{"indexed":true,"name":"_txHash","type":"bytes32"},{"indexed":true,"name":"_time","type":"uint256"},{"indexed":true,"name":"_txId","type":"uint256"}],"name":"Stored","type":"event"}},"links":{},"address":"0x0225b0472c9496221f20e9b5a241c6405d120d1d","updated_at":1506677270475},"1506495682478":{"events":{"0xb47602f39d5e453eb8eb44a5c178203a3b620e2fa7b86701d10ccc1cb2cdf2bb":{"anonymous":false,"inputs":[{"indexed":true,"name":"_txHash","type":"bytes32"},{"indexed":true,"name":"_time","type":"uint256"},{"indexed":true,"name":"_txID","type":"uint256"}],"name":"Stored","type":"event"}},"links":{},"address":"0xc119468aa3a5d2a45e3f41a00bf0f7c42b6fd6ec","updated_at":1506495701700},"1506495873889":{"events":{"0xb47602f39d5e453eb8eb44a5c178203a3b620e2fa7b86701d10ccc1cb2cdf2bb":{"anonymous":false,"inputs":[{"indexed":true,"name":"_txHash","type":"bytes32"},{"indexed":true,"name":"_time","type":"uint256"},{"indexed":true,"name":"_txID","type":"uint256"}],"name":"Stored","type":"event"}},"links":{},"address":"0xb6cd9481f3b2b61c5ee1bf4da831e7133f03313f","updated_at":1506495881397},"1506496921569":{"events":{"0xb47602f39d5e453eb8eb44a5c178203a3b620e2fa7b86701d10ccc1cb2cdf2bb":{"anonymous":false,"inputs":[{"indexed":true,"name":"_txHash","type":"bytes32"},{"indexed":true,"name":"_time","type":"uint256"},{"indexed":true,"name":"_txID","type":"uint256"}],"name":"Stored","type":"event"}},"links":{},"address":"0xb6cd9481f3b2b61c5ee1bf4da831e7133f03313f","updated_at":1506496931880},"1506499956637":{"events":{"0xb47602f39d5e453eb8eb44a5c178203a3b620e2fa7b86701d10ccc1cb2cdf2bb":{"anonymous":false,"inputs":[{"indexed":true,"name":"_txHash","type":"bytes32"},{"indexed":true,"name":"_time","type":"uint256"},{"indexed":true,"name":"_txID","type":"uint256"}],"name":"Stored","type":"event"}},"links":{},"address":"0xb6cd9481f3b2b61c5ee1bf4da831e7133f03313f","updated_at":1506500527429},"1506500675702":{"events":{"0xb47602f39d5e453eb8eb44a5c178203a3b620e2fa7b86701d10ccc1cb2cdf2bb":{"anonymous":false,"inputs":[{"indexed":true,"name":"_txHash","type":"bytes32"},{"indexed":true,"name":"_time","type":"uint256"},{"indexed":true,"name":"_txID","type":"uint256"}],"name":"Stored","type":"event"}},"links":{},"address":"0xb6cd9481f3b2b61c5ee1bf4da831e7133f03313f","updated_at":1506500681143},"1506503091540":{"events":{"0xb47602f39d5e453eb8eb44a5c178203a3b620e2fa7b86701d10ccc1cb2cdf2bb":{"anonymous":false,"inputs":[{"indexed":true,"name":"_txHash","type":"bytes32"},{"indexed":true,"name":"_time","type":"uint256"},{"indexed":true,"name":"_txID","type":"uint256"}],"name":"Stored","type":"event"}},"links":{},"address":"0xb6cd9481f3b2b61c5ee1bf4da831e7133f03313f","updated_at":1506503099449},"1506569627855":{"events":{"0xb47602f39d5e453eb8eb44a5c178203a3b620e2fa7b86701d10ccc1cb2cdf2bb":{"anonymous":false,"inputs":[{"indexed":true,"name":"_txHash","type":"bytes32"},{"indexed":true,"name":"_time","type":"uint256"},{"indexed":true,"name":"_txID","type":"uint256"}],"name":"Stored","type":"event"}},"links":{},"address":"0xb6cd9481f3b2b61c5ee1bf4da831e7133f03313f","updated_at":1506569655391}},"schema_version":"0.0.5","updated_at":1506677270475}
+module.exports = {"contract_name":"Hasher","abi":[{"constant":false,"inputs":[{"name":"_txHash","type":"bytes32"}],"name":"storeDetails","outputs":[{"name":"_time","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"_txId","type":"uint256"}],"name":"showTxDetails","outputs":[{"name":"_txHash","type":"bytes32"},{"name":"_time","type":"uint256"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"_txHash","type":"bytes32"}],"name":"showTxId","outputs":[{"name":"_txId","type":"uint256"},{"name":"_time","type":"uint256"}],"payable":false,"type":"function"},{"anonymous":false,"inputs":[{"indexed":true,"name":"_txHash","type":"bytes32"},{"indexed":true,"name":"_time","type":"uint256"},{"indexed":true,"name":"_txId","type":"uint256"}],"name":"Stored","type":"event"}],"unlinked_binary":"0x6060604052341561000f57600080fd5b5b6101d48061001f6000396000f300606060405263ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663058caf7d81146100535780636ac05a141461007b578063e7d12312146100a9575b600080fd5b341561005e57600080fd5b6100696004356100d7565b60405190815260200160405180910390f35b341561008657600080fd5b610091600435610161565b60405191825260208201526040908101905180910390f35b34156100b457600080fd5b61009160043561017f565b60405191825260208201526040908101905180910390f35b60008054600101905542604080519081016040908152838252602080830184905260008054815260029091522081518155602082015160019182015560008054858252602092909252604090819020829055909150829084907fb47602f39d5e453eb8eb44a5c178203a3b620e2fa7b86701d10ccc1cb2cdf2bb905160405180910390a45b919050565b60008181526002602052604090208054600182015490915b50915091565b600081815260016020818152604080842054808552600290925290922090810154905b509150915600a165627a7a7230582053f1793893b3e1615fdb7c65da28c5401bbb88ef5e709a6380b5214f827250600029","networks":{"3":{"events":{"0xb47602f39d5e453eb8eb44a5c178203a3b620e2fa7b86701d10ccc1cb2cdf2bb":{"anonymous":false,"inputs":[{"indexed":true,"name":"_txHash","type":"bytes32"},{"indexed":true,"name":"_time","type":"uint256"},{"indexed":true,"name":"_txID","type":"uint256"}],"name":"Stored","type":"event"}},"links":{},"address":"0xd90ab193c92f043fa8c6c88c676542dd20d4f037","updated_at":1506569057756},"1056916":{"events":{"0xb47602f39d5e453eb8eb44a5c178203a3b620e2fa7b86701d10ccc1cb2cdf2bb":{"anonymous":false,"inputs":[{"indexed":true,"name":"_txHash","type":"bytes32"},{"indexed":true,"name":"_time","type":"uint256"},{"indexed":true,"name":"_txId","type":"uint256"}],"name":"Stored","type":"event"}},"links":{},"address":"0x6b1a8063b1832cccbc7ef3a718e1fa0c15ed640d","updated_at":1506910845495},"1506495682478":{"events":{"0xb47602f39d5e453eb8eb44a5c178203a3b620e2fa7b86701d10ccc1cb2cdf2bb":{"anonymous":false,"inputs":[{"indexed":true,"name":"_txHash","type":"bytes32"},{"indexed":true,"name":"_time","type":"uint256"},{"indexed":true,"name":"_txID","type":"uint256"}],"name":"Stored","type":"event"}},"links":{},"address":"0xc119468aa3a5d2a45e3f41a00bf0f7c42b6fd6ec","updated_at":1506495701700},"1506495873889":{"events":{"0xb47602f39d5e453eb8eb44a5c178203a3b620e2fa7b86701d10ccc1cb2cdf2bb":{"anonymous":false,"inputs":[{"indexed":true,"name":"_txHash","type":"bytes32"},{"indexed":true,"name":"_time","type":"uint256"},{"indexed":true,"name":"_txID","type":"uint256"}],"name":"Stored","type":"event"}},"links":{},"address":"0xb6cd9481f3b2b61c5ee1bf4da831e7133f03313f","updated_at":1506495881397},"1506496921569":{"events":{"0xb47602f39d5e453eb8eb44a5c178203a3b620e2fa7b86701d10ccc1cb2cdf2bb":{"anonymous":false,"inputs":[{"indexed":true,"name":"_txHash","type":"bytes32"},{"indexed":true,"name":"_time","type":"uint256"},{"indexed":true,"name":"_txID","type":"uint256"}],"name":"Stored","type":"event"}},"links":{},"address":"0xb6cd9481f3b2b61c5ee1bf4da831e7133f03313f","updated_at":1506496931880},"1506499956637":{"events":{"0xb47602f39d5e453eb8eb44a5c178203a3b620e2fa7b86701d10ccc1cb2cdf2bb":{"anonymous":false,"inputs":[{"indexed":true,"name":"_txHash","type":"bytes32"},{"indexed":true,"name":"_time","type":"uint256"},{"indexed":true,"name":"_txID","type":"uint256"}],"name":"Stored","type":"event"}},"links":{},"address":"0xb6cd9481f3b2b61c5ee1bf4da831e7133f03313f","updated_at":1506500527429},"1506500675702":{"events":{"0xb47602f39d5e453eb8eb44a5c178203a3b620e2fa7b86701d10ccc1cb2cdf2bb":{"anonymous":false,"inputs":[{"indexed":true,"name":"_txHash","type":"bytes32"},{"indexed":true,"name":"_time","type":"uint256"},{"indexed":true,"name":"_txID","type":"uint256"}],"name":"Stored","type":"event"}},"links":{},"address":"0xb6cd9481f3b2b61c5ee1bf4da831e7133f03313f","updated_at":1506500681143},"1506503091540":{"events":{"0xb47602f39d5e453eb8eb44a5c178203a3b620e2fa7b86701d10ccc1cb2cdf2bb":{"anonymous":false,"inputs":[{"indexed":true,"name":"_txHash","type":"bytes32"},{"indexed":true,"name":"_time","type":"uint256"},{"indexed":true,"name":"_txID","type":"uint256"}],"name":"Stored","type":"event"}},"links":{},"address":"0xb6cd9481f3b2b61c5ee1bf4da831e7133f03313f","updated_at":1506503099449},"1506569627855":{"events":{"0xb47602f39d5e453eb8eb44a5c178203a3b620e2fa7b86701d10ccc1cb2cdf2bb":{"anonymous":false,"inputs":[{"indexed":true,"name":"_txHash","type":"bytes32"},{"indexed":true,"name":"_time","type":"uint256"},{"indexed":true,"name":"_txID","type":"uint256"}],"name":"Stored","type":"event"}},"links":{},"address":"0xb6cd9481f3b2b61c5ee1bf4da831e7133f03313f","updated_at":1506569655391}},"schema_version":"0.0.5","updated_at":1506910845495}
 
 /***/ }),
 /* 54 */
@@ -22357,7 +22357,7 @@ window.addEventListener('load', function() {
 })    
 
 window.App = {
-  
+  //start of app
   txTable: function(eventStored) {
     var tbl = "";
     eventStored.get(function(error, result){
@@ -22390,21 +22390,25 @@ window.App = {
     return filterArray
   },
 
+  validateHash: function() {
+    if(inputHash.value == "") { throw "-Blank Hash-" }
+  },
+
   storeHash: function() {
-    var x = "0x" + inputHash.value;
-    Hasher.deployed().then(function(hasher) {
-      instance = hasher;
-      document.getElementById("inputHash").value = "";
-      console.log("From account: " + web3.eth.accounts[0]);
-      return instance.storeDetails.estimateGas(x, {from:web3.eth.accounts[0]});
-    }).then(function(gas) {
-      console.log("Gas estimate: " + gas);
-      instance.storeDetails(x, {gas:gas, from:web3.eth.accounts[0]}).then(function(result){
-        console.log("Tx Hash: " + result.tx);
+      var x = "0x" + inputHash.value;
+      Hasher.deployed().then(function(hasher) {
+        instance = hasher;
+        document.getElementById("inputHash").value = "";
+        console.log("From account: " + web3.eth.accounts[0]);
+        return instance.storeDetails.estimateGas(x, {from:web3.eth.accounts[0]});
+      }).then(function(gas) {
+        console.log("Gas estimate: " + gas);
+        instance.storeDetails(x, {gas:gas, from:web3.eth.accounts[0]}).then(function(result){
+          console.log("Tx Hash: " + result.tx);
+        })
+      }).catch(function(error){   
+        console.error(error);                   
       })
-    }).catch(function(error){   
-      console.error(error);                   
-    })
   },
 
   getDetails: function() {
@@ -22425,10 +22429,37 @@ window.App = {
     })
   },
 
+  listenStored: function() {
+    Hasher.deployed().then(function(hasher) {
+      instance = hasher;
+      return instance.Stored({}, {fromBlock:0, toBlock:"latest"})
+    }).then(function(eventStored){
+      eventStored.watch(function(error, result){
+        if(!error) {
+          currentTx.innerHTML = `Current Tx ID: -${result.args._txId}-`;
+          App.txTable(eventStored);
+        } else console.error(error);
+      })
+    })
+  },
+  //end of app
 }
 
+inputHash.addEventListener('keypress', function(){
+  if(event.keyCode == 13 || event.which == 13) { 
+    App.validateHash();
+    var c = confirm(`Store ${inputHash.value}?`);
+    if(c == true) { App.storeHash() };
+  };
+})
+
 set.addEventListener('click', function() {
+  App.validateHash();
   App.storeHash();
+})
+
+txId.addEventListener('keypress', function(){
+  if(event.keyCode == 13 || event.which == 13) { App.getDetails() }
 })
 
 get.addEventListener('click', function() {
@@ -22436,20 +22467,8 @@ get.addEventListener('click', function() {
 })
 
 window.addEventListener('load', function() {
-  Hasher.deployed().then(function(hasher) {
-    instance = hasher;
-    return instance.Stored({}, {fromBlock:0, toBlock:"latest"})
-  }).then(function(eventStored){
-    eventStored.watch(function(error, result){
-      if(!error) {
-        currentTx.innerHTML = `Current Tx ID: -${result.args._txId}-`;
-        App.txTable(eventStored);
-      } else console.error(error);
-    })
-  })
+  App.listenStored();
 })
-
-
 
 /***/ }),
 /* 58 */

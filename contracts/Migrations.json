@@ -70,8 +70,8 @@
     "1056916": {
       "events": {},
       "links": {},
-      "address": "0xd90ab193c92f043fa8c6c88c676542dd20d4f037",
-      "updated_at": 1506677270477
+      "address": "0x0563f989f769a4b1bee9e7bce6990de897f4dfee",
+      "updated_at": 1506910845497
     },
     "1506495682478": {
       "events": {},
@@ -117,5 +117,5 @@
     }
   },
   "schema_version": "0.0.5",
-  "updated_at": 1506677270477
+  "updated_at": 1506910845497
 }
