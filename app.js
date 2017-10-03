@@ -22365,12 +22365,13 @@ window.App = {
         for(var i = 0; i < result.length; i++) {
           var argsKeys = Object.keys(result[i].args);
           var argsArray = []; 
+          var n = result.length - 1 - i;  // n shows latest transaction on top
           tbl += "<tr>";
                       
           //push details into argsArray
-          argsArray.push(result[i].args._txId);
-          argsArray.push(result[i].args._txHash);
-          argsArray.push(dateFormat(new Date(result[i].args._time * 1000), "HH:MM:ss mm/dd/yyyy"));
+          argsArray.push(result[n].args._txId);
+          argsArray.push(result[n].args._txHash);
+          argsArray.push(dateFormat(new Date(result[n].args._time * 1000), "HH:MM:ss mm/dd/yyyy"));
     
           for(var j = 0; j < argsKeys.length; j++) {
             tbl += `<td>${argsArray[j]}</td>`;            
@@ -22395,20 +22396,20 @@ window.App = {
   },
 
   storeHash: function() {
-      var x = "0x" + inputHash.value;
-      Hasher.deployed().then(function(hasher) {
-        instance = hasher;
-        document.getElementById("inputHash").value = "";
-        console.log("From account: " + web3.eth.accounts[0]);
-        return instance.storeDetails.estimateGas(x, {from:web3.eth.accounts[0]});
-      }).then(function(gas) {
-        console.log("Gas estimate: " + gas);
-        instance.storeDetails(x, {gas:gas, from:web3.eth.accounts[0]}).then(function(result){
-          console.log("Tx Hash: " + result.tx);
-        })
-      }).catch(function(error){   
-        console.error(error);                   
+    var x = "0x" + inputHash.value;
+    Hasher.deployed().then(function(hasher) {
+      instance = hasher;
+      document.getElementById("inputHash").value = "";
+      console.log("From account: " + web3.eth.accounts[0]);
+      return instance.storeDetails.estimateGas(x, {from:web3.eth.accounts[0]});
+    }).then(function(gas) {
+      console.log("Gas estimate: " + gas);
+      instance.storeDetails(x, {gas:gas, from:web3.eth.accounts[0]}).then(function(result){
+        console.log("Tx Hash: " + result.tx);
       })
+    }).catch(function(error){   
+      console.error(error);                   
+    })
   },
 
   getDetails: function() {
@@ -25653,7 +25654,7 @@ exports = module.exports = __webpack_require__(82)();
 
 
 // module
-exports.push([module.i, "th {\n  text-align:center;\n}\n\ntable {\n  vertical-align:middle;\n}\n\n/* .jumbotron {\n  background-color:transparent !important; \n} */\n\n.input-group-addon.first {\n  min-width:85px;\n  text-align:center;\n}\n\n.input-group-addon.second {\n  min-width:40px;\n  text-align:center;\n}\n\n.input-group-btn {\n  min-width:100px;\n  text-align:center;\n}\n\n.card-title.center-all {\n  margin: auto;\n  text-align: center;\n}", ""]);
+exports.push([module.i, "th {\n  text-align:center;\n}\n\ntable {\n  vertical-align:middle;\n}\n\n/* .jumbotron {\n  background-color:transparent !important; \n} */\n\n.input-group-addon.first {\n  min-width:85px;\n  text-align:center;\n}\n\n.input-group-addon.second {\n  min-width:40px;\n  text-align:center;\n}\n\n.input-group-btn {\n  min-width:100px;\n  text-align:center;\n}\n\n.card-title.center-all {\n  margin:auto;\n  text-align:center;\n}\n\n", ""]);
 
 // exports
 

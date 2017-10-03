@@ -9,16 +9,77 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 </head>
+
 <body>
 
   <div class="jumbotron">
     <div class="container">
       <div class="text-xs-center">
-        <h1 class="display-3"><strong>Goodluck bb!</strong></h1>
+        <h1 class="display-3"><strong>Hasher</strong></h1>
         <hr class="my-4">
-        <p>mwah mwah mwah mwah :*</p>
+        <p>Store your hash on an immutable medium</p>
       </div>
     </div>
   </div>
 
+  <div class="container">
+    <div class="card card-inverse card-info mb-3 text-center">
+      <div class="card-block">
+        <h3 class="card-title center-all" id="currentTx"></h3>
+      </div>
+    </div>
+    
+    <!-- set -->
+    <div class="card card-outline-info">
+      <div class="card-block">
+        <h3 class="card-title">Store Hash</h3>
+        <div class="input-group">
+          <span class="input-group-addon first" id="sizing-addon1">TxHash</span>
+          <span class="input-group-addon second" id="sizing-addon2">0x</span>
+          <input id="inputHash" class="form-control" placeholder="97cba8c632b309bdac0e90a4203f538416f7b7022dac9cd19d250b4a124933c4">
+          <span class="input-group-btn"><button id="set" class="btn btn-default btn-block">Store</button></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- get -->
+    <div class="card card-outline-info">
+      <div class="card-block">
+        <h3 class="card-title">Retrieve Hash</h3>
+        <div class="input-group">
+          <span class="input-group-addon first">TxID</span>
+          <input id="txId" class="form-control" placeholder="e.g. 1, 2, 3">
+          <span class="input-group-btn"><button id="get" class="btn btn-default btn-block">Retrieve</button></span>
+        </div>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item" id="showTxId">Transaction ID</li>
+        <li class="list-group-item" id="txHash">Transaction Hash</li>
+      </ul>
+      <div class="card-footer">
+        <small class="text-muted" id="timestamp">Timestamp</small>
+      </div>
+    </div>
+   
+    <br>
+
+    <h2 class="text-sm-center">Transaction History</h2>
+    <hr class="my-4">
+
+    <table class="table table-hover table-sm">
+      <thead>
+        <tr class="bg-info">
+          <th>TxID</th>
+          <th>TxHash</th>
+          <th>Timestamp</th>
+        </tr>
+      </thead>
+      <tbody id="history">
+      </tbody>
+    </table>
+  </div>
+  
+  <script src="./app.js"></script>
+
+</body>
 </html>
